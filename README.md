@@ -11,6 +11,10 @@
 ## Funcionalidades básicas y esenciales de Pandas
 
 * Formatos de lectura para cargar y guardar
-* Tipos devariables que componen un dataframe
+* Tipos de variables que componen un dataframe
 * Estructuras de dataframe en detalle
 * Como borrar filas, columnas y copiar información
+* Cómo aplicar funciones def y lambdas en un dataframe
+* Cómo usar los comandos: *concat* y *append*
+* Cómo usar la funcón *groupby*
+* Cómo manejar valores nulos: NaN
