@@ -12,16 +12,18 @@ Es una librería de Python 🐍 que permite manipular dos tipos de estructuras d
 ## Series & DataFrame
 
 - [**Series**](https://pandas.pydata.org/pandas-docs/stable/user_guide/dsintro.html#series): is a one-dimensional labeled array capable of holding any data type (integers, strings, floating point numbers, Python objects, etc.). The axis labels are collectively referred to as the index. The basic method to create a Series is to call:
->>> s = pd.Series(data, index=index)
+  ```
+  s = pd.Series(data, index=index)
+  ```
   
 
-  Here, data can be many different things:
+    Here, data can be many different things:
 
-  - a Python dict
+    - a Python dict
 
-  - an ndarray
+    - an ndarray
 
-  - a scalar value (like 5)
+    - a scalar value (like 5)
 
 
 
@@ -38,18 +40,18 @@ Es una librería de Python 🐍 que permite manipular dos tipos de estructuras d
   - Another DataFrame
 
 
-* Como crear e indexar series
-* Como crear dataframes
-* Como manejar e indexar archivos: csv, excel, JSON
-* Como conectarse a bases de datos sql
+- [ ] [Como crear e indexar series]()
+- [ ] [Como crear dataframes]()
+- [ ] [Como manejar e indexar archivos: csv, excel, JSON]()
+- [ ] [Como conectarse a bases de datos sql]()
 
 ## Funcionalidades básicas y esenciales de Pandas
 
-* Formatos de lectura para cargar y guardar
-* Tipos de variables que componen un dataframe
-* Estructuras de dataframe en detalle
-* Como borrar filas, columnas y copiar información
-* Cómo aplicar funciones def y lambdas en un dataframe
-* Cómo usar los comandos: *concat* y *append*
-* Cómo usar la funcón *groupby*
-* Cómo manejar valores nulos: NaN
+- [ ] [Formatos de lectura para cargar y guardar]()
+- [ ] [Tipos de variables que componen un dataframe]()
+- [ ] [Estructuras de dataframe en detalle]()
+- [ ] [Como borrar filas, columnas y copiar información]()
+- [ ] [Cómo aplicar funciones def y lambdas en un dataframe]()
+- [ ] [Cómo usar los comandos: *concat* y *append*]()
+- [ ] [Cómo usar la funcón *groupby*]()
+- [ ] [Cómo manejar valores nulos: NaN]()
