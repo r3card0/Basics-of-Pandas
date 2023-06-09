@@ -55,3 +55,13 @@ Es una librería de Python 🐍 que permite manipular dos tipos de estructuras d
 - [ ] [Cómo usar los comandos: *concat* y *append*]()
 - [ ] [Cómo usar la funcón *groupby*]()
 - [ ] [Cómo manejar valores nulos: NaN]()
+
+
+## Practicas para no olvidar
+
+### Como eliminar registros duplicados
+
+* Para resolver esta premisa, usé la funciòn ```drop_duplicates()```
+* Hay una variante, la cual se puede usar para extraer los registros contrarios ```drop_duplicates(keep=False)```. La siguiente fuente permite usar mas opciones: [drop_duplicates](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.drop_duplicates.html)
+* La sintaxis correcta es: ```dataframe.drop_duplicates()```
+
