@@ -66,3 +66,6 @@ Es una librería de Python 🐍 que permite manipular dos tipos de estructuras d
 * La sintaxis correcta es: ```dataframe.drop_duplicates()```
 * [Ejemplo](https://colab.research.google.com/drive/14KDbHQS8w2b8MmaEhJ7nmva0mrTuapqH?usp=sharing)
 
+### Como castear columnas (cambiar su tipo de dato a otro tipo de dato)
+* Cambiar el tipo de dato string a integer de una columna d eun dataframe
+
