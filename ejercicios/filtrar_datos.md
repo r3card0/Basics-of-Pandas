@@ -1,4 +1,8 @@
 # Logica a seguir para filtrar datos de un dataframe.
+Filtrar una columna, un valor -> column_name filter by x value. x is a string
+````
+df[df['column_name']== 'x']
+````
 
 Filtrar varias columnas, un valor
 * Filtro 1: col1:1, col2:True, col3 any value
