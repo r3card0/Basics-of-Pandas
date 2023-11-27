@@ -25,7 +25,7 @@ def filtro2():
 ````
 
 # Como concatenar dataframes
-En pandas, el acto de concatenar dataframes es como el operador *UNION* en sql, consta de juntar los dataframes en horizontal
+En pandas, el acto de concatenar dataframes es como el operador *UNION* en sql, consta de juntar los dataframes en horizontal, es decir, se juntan los dataframes por renglones o filas. Ver imagen.
 
 ![concat](https://pandas.pydata.org/docs/_images/merging_concat_basic.png)
 
