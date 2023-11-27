@@ -22,5 +22,17 @@ def filtro2():
   # 2. aplicar filtro
   df = df[(df['col1'].isin([1,2]) & (df['col2'] == False) & (df['col3'].isin(['a','z']))]
   return df
-  
-  
+````
+
+# Como concatenar dataframes
+En pandas, el acto de concatenar dataframes es como el operador *UNION* en sql, consta de juntar los dataframes en horizontal
+
+![concat](https://pandas.pydata.org/docs/_images/merging_concat_basic.png)
+
+La sintaxis es:
+````
+import pandas as pd
+
+# resultado_concatenado = pd.concat([lista de dataframes])
+resultado_concatenado = pd.concat([df1,df2,df3])
+````
