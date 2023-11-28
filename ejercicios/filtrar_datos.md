@@ -36,3 +36,5 @@ import pandas as pd
 # resultado_concatenado = pd.concat([lista de dataframes])
 resultado_concatenado = pd.concat([df1,df2,df3])
 ````
+
+# Como extraer los valores de un dataframe que no estan en otro dataframe. Algo asi como un *LEFT JOIN*
