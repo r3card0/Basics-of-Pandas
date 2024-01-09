@@ -23,8 +23,25 @@ array[(10,8,4,45,6)]
 
 ## Como indexar una serie: index
 Se puede asignar valores a los indices de una serie.
+
+Previo a la asignacion de valores al indice, se puede ver el tipo de indice actual de la serie con el comando:
+````
+serie1.index
+````
+output
+````
+RangeIndex(start=0,stop=5,step=1)
+````
+Asignar nuevos valores al indice
 ````
 serie1 = pd.Series([10,8,4,45,6], index = ['a','b','c','d','e'])
 ````
-
+Ver de nuevo el tipo de indice
+````
+serie1.index
+````
+output 
+````
+Index(['a', 'b', 'c', 'd', 'e'], dtype='object')
+````
 
