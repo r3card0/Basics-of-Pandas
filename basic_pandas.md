@@ -126,6 +126,20 @@ output
 ````
 Index(['base form', 'past', 'participle'], dtype='object')
 ````
+## Cambiar de la indexaxion de la Serie
+Cambiar la indexacion sustityendo el indice ````'participle'````, por el valor ````'adverb'````
+````
+pd.Series(irregular_verbs, index = ['base form','past','adverb'])
+````
+output
+````
+base form    arise
+past         arose
+adverb         NaN
+dtype: object
+````
+Se observa que al crear un nuevo indice, el valor correspondiente es nulo *NaN*, lo cual indica que se desconoce su valor
+
 
 
 
