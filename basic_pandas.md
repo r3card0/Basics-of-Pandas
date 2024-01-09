@@ -55,3 +55,44 @@ output
 45
 ````
 
+# Como crear diccionarios
+Un diccionario es una estructura de datos que almacena informacion en pares.
+
+Forma manual para crear un diccionario
+````
+# crear un diccionario con verbos irregulares en inglés
+irregular_verbs = {
+    "base form" : "arise",
+    "past" : "arose",
+    "participle": "arisen"
+}
+````
+En la variable *irregular_verbs* se almaceno el diccionario y sus elementos. Para visualizar el contenido de un diccionario.
+````
+print(irregular_verbs)
+````
+Output
+````
+'base form': 'arise', 'past': 'arose', 'participle': 'arisen'}
+````
+## Como acceder a los keys de un diccionario
+Para acceder a los keys de un diccionario se usa el metodo **keys()**
+````
+irregular_verbs.keys()
+````
+output
+````
+dict_keys(['base form', 'past', 'participle'])
+````
+## Como acceder a a los values de un diccionario
+Para acceder a los *values* de un diccionario, se usa el metodo **values()**
+````
+irregular_verbs.values()
+````
+output
+````
+dict_values(['arise', 'arose', 'arisen'])
+````
+
+
+
