@@ -45,3 +45,13 @@ output
 Index(['a', 'b', 'c', 'd', 'e'], dtype='object')
 ````
 
+## Como accesar a los elementos de una Serie
+Se usa los "*[ ]*" para accesar a los elementos de la serie. Accesar y mostrar el elemento de la posicion *3*
+````
+serie1[3]
+````
+output
+````
+45
+````
+
