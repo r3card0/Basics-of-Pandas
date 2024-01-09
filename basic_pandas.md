@@ -75,7 +75,7 @@ Output
 ````
 'base form': 'arise', 'past': 'arose', 'participle': 'arisen'}
 ````
-## Como acceder a los keys de un diccionario
+## Como acceder a los keys de un diccionario: *keys()*
 Para acceder a los keys de un diccionario se usa el metodo **keys()**
 ````
 irregular_verbs.keys()
@@ -84,7 +84,7 @@ output
 ````
 dict_keys(['base form', 'past', 'participle'])
 ````
-## Como acceder a a los values de un diccionario
+## Como acceder a los values de un diccionario: *values()*
 Para acceder a los *values* de un diccionario, se usa el metodo **values()**
 ````
 irregular_verbs.values()
@@ -92,6 +92,15 @@ irregular_verbs.values()
 output
 ````
 dict_values(['arise', 'arose', 'arisen'])
+````
+## Como acceder al valor de una *key* deternminada
+Usar una *key* para acceder a su valor.
+````
+irregular_verbs['past']
+````
+output
+````
+'arose'
 ````
 
 
