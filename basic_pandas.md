@@ -102,6 +102,30 @@ output
 ````
 'arose'
 ````
+# Como convertir diccionarios en Series
+Para convertir un diccionario en una serie se usa el siguiente codigo
+````
+serie_from_dict = pd.Serie(irregular_verbs)
+````
+Al convertir un diccionario a serie, lo que sucede es que las *keys* se vuelven *index* y los values, se convierten en los elementos de la Serie.
+````
+serie_from_dict
+````
+output
+````
+base form      arise
+past           arose
+participle    arisen
+dtype: object
+````
+Visualizar los indices:
+````
+serie_from_dict.index
+````
+output
+````
+Index(['base form', 'past', 'participle'], dtype='object')
+````
 
 
 
