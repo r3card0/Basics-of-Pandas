@@ -7,7 +7,21 @@ import numpy as np
 ````
 
 # Como crear series
-La serie es un conunto de elementos ordenadas. Es una lista ordenada.
+- [**Series**](https://pandas.pydata.org/pandas-docs/stable/user_guide/dsintro.html#series): Una serie es una lista, pero su mejor definicion es un arreglo unidimensional etiquetado, que es capaz de almacena datos de cualquier tipo  (integers, strings, floating point numbers, Python objects, etc.) Las etiquetas están colectivamente referidas como indice. El método basico para crear una serie:     ```
+  s = pd.Series(data, index=index)
+  ```
+  
+
+    Datos que pueden ser convertidos a una Serie:
+
+    - a Python dict
+
+    - an ndarray
+
+    - a scalar value (like 5)
+
+
+La serie es un conunto de elementos ordenadas. Es una lista ordenada y etiquetada por indices.
 ````
 serie1 = pd.Series([10,8,4,45,6]
 ````
