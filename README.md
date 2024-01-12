@@ -67,5 +67,7 @@ Es una librería de Python 🐍 que permite manipular dos tipos de estructuras d
 * [Ejemplo](https://colab.research.google.com/drive/14KDbHQS8w2b8MmaEhJ7nmva0mrTuapqH?usp=sharing)
 
 ### Como castear columnas (cambiar su tipo de dato a otro tipo de dato)
-* Cambiar el tipo de dato string a integer de una columna d eun dataframe
+* Cambiar el tipo de dato string a integer de una columna de un dataframe
+
+[Ver ejemplo 👀](https://practicaldatascience.co.uk/data-science/how-to-use-pandas-to-numeric-to-convert-strings-to-numbers)
 
