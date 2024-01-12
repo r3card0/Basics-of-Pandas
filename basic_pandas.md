@@ -270,9 +270,9 @@ dtype: object
 El metodo df.assign(), asigna nuevas columnas a un dataframe o permite castear las columnas ya existentes.
 
 ## Crear nueva columna llamada speed_category
-Se puede crear una nueva columna a partir de una columma existente. Ver el [proceso *to_numeric*]() 
+Se puede crear una nueva columna a partir de una columma existente. Ver el [proceso *to_numeric*](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#como-funciona-el-metodo-to_numeric) 
 
 ## Castear una columna existente
-Se puede castear una columna existente. Ver el [proceso *to_numeric*]() 
+Se puede castear una columna existente. Ver el [proceso *to_numeric*](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#como-funciona-el-metodo-to_numeric) 
 
 
