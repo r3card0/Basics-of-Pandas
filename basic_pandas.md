@@ -1,20 +1,24 @@
 # Pandas 🐼
-- [ ] [Series]()
-- [ ] [DataFrame]()
+- [ ] [Series](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#series)
+- [ ] [DataFrame](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#dataframe)
 
 # Series
-- [ ] [Como importar librerias]()
-- [ ] [Como crear Series]()
-- [ ] [Conocer las propiedades de una Serie]()
-- [ ] [Como indexar una Serie]()
-- [ ] [Acceder a los elementos de una Serie]()
-- [ ] [Como crear una Serie a partir de un diccionario]()
+- [ ] [Como importar librerias](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#importar-librerias)
+- [ ] [Como crear Series](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#como-crear-series)
+- [ ] [Conocer las propiedades de una Serie](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#como-conocer-las-propiedades-de-una-serie-values)
+- [ ] [Como indexar una Serie](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#como-indexar-una-serie-index)
+- [ ] [Acceder a los elementos de una Serie](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#como-accesar-a-los-elementos-de-una-serie)
+- [ ] [Como crear una Serie a partir de un diccionario](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#como-convertir-diccionarios-en-series)
 
 # DataFrame
-- [ ] [Como importar librerias]()
+- [ ] [Como importar librerias](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#importar-librerias)
 - [ ] [Como crear un DataFrame]()
-- [ ] [Como crear una DataFrame a partir de un diccionario]()
-- [ ] [Como castear columnas en un **df**]()
+- [ ] [Como crear un DataFrame a partir de un diccionario]()
+- [ ] [Como castear columnas en un DataFrame](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#como-castear-columnas-en-un-dataframe)
+- [ ] [Como funciona el método **apply( )**](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#c%C3%B3mo-funciona-el-metodo-apply--en-un-dataframe-de-pandas)
+- [ ] [Diferencia entre *int32* y *int64*](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#cual-es-la-diferencia-entre-int32-y-int64-en-python)
+- [ ] [Como funciona el metodo **to_numeric**](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#como-funciona-el-metodo-to_numeric)
+- [ ] [Como funciona el metodo **assign( )**]()
 
 ## Importar librerias
 ````
