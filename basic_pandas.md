@@ -267,3 +267,12 @@ dtype: object
 ````
 
 # Como funciona el método **assign( )**
+El metodo df.assign(), asigna nuevas columnas a un dataframe o permite castear las columnas ya existentes.
+
+## Crear nueva columna llamada speed_category
+Se puede crear una nueva columna a partir de una columma existente. Ver el [proceso *to_numeric*]() 
+
+## Castear una columna existente
+Se puede castear una columna existente. Ver el [proceso *to_numeric*]() 
+
+
