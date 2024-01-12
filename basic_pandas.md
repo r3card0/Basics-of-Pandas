@@ -186,3 +186,23 @@ Tipo de capacidad
 |Int32|(-2,147,483,648 to +2,147,483,647)|
 |Int64|(-9,223,372,036,854,775,808 to +9,223,372,036,854,775,807)|
 
+# Como funciona el metodo *to_numeric*
+El metodo pandas.to_numeric( ), convierte un argumento al tipo de dato numerico y por default asigna *int64*
+
+Supongamos que hay un dataframe con la columna llamada *limite_de_velocidad*, la cual almacena valores de velocidad en el tipo de dato string
+````
+# diccionario velocidades
+velocidades = { 'calle':['presidente','main','limite_de_velocidad':['80','100']}
+
+# convertir diccionario a pandas.DataFrame
+import pandas as pd
+df_velocidades = pd.DataFrame(velocidades)
+
+# convertir de string a numerico reasignando la variable limite_de_velocidad
+limite_de_velocidad = pd.to_numeric(df_velocidades['limite_de_velocidad'])
+
+# observar los cambios
+df_velocidades.dtypes
+````
+
+
