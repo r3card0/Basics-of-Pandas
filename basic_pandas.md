@@ -1,5 +1,5 @@
 # Pandas 🐼
-- [ ] [Pandas 🐼]()
+- [ ] [Pandas 🐼](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#pandas--1)
 - [ ] [Series](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#series)
 - [ ] [DataFrame](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#dataframe)
 
