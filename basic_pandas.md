@@ -187,22 +187,46 @@ Tipo de capacidad
 |Int64|(-9,223,372,036,854,775,808 to +9,223,372,036,854,775,807)|
 
 # Como funciona el metodo *to_numeric*
-El metodo pandas.to_numeric( ), convierte un argumento al tipo de dato numerico y por default asigna *int64*
+El metodo pandas.to_numeric( ), convierte un argumento al tipo de dato numerico y por default asigna *int64*. A este cambio, tambien se le conoce como *castear* o *cast* en ingles.
 
 Supongamos que hay un dataframe con la columna llamada *limite_de_velocidad*, la cual almacena valores de velocidad en el tipo de dato string
 ````
 # diccionario velocidades
-velocidades = { 'calle':['presidente','main','limite_de_velocidad':['80','100']}
-
+velocidades = { 'calle':['presidente','main'],'limite_de_velocidad':['80','100']}
+````
+````
 # convertir diccionario a pandas.DataFrame
 import pandas as pd
 df_velocidades = pd.DataFrame(velocidades)
-
+````
+````
+# ver tipos de datos del dataframe
+df_velocidades.dtypes
+````
+Output
+````
+calle                  object
+limite_de_velocidad    object
+dtype: object
+````
+````
 # convertir de string a numerico reasignando la variable limite_de_velocidad
 limite_de_velocidad = pd.to_numeric(df_velocidades['limite_de_velocidad'])
-
+````
+Para aplicar el cambio, se puede usar el metodo *assign( )*, el cual permite crear o reasignar columnas. En este caso, se reasignara el tipo de dato.
+````
+# convertir de string a numerico reasignando la variable limite_de_velocidad aplicando el método assign( )
+df_velocidades = df_velocidades.assign(limite_de_velocidad = pd.to_numeric(df_velocidades['limite_de_velocidad']))
+````
+````
 # observar los cambios
 df_velocidades.dtypes
+````
+Output
+````
+calle                  object
+limite_de_velocidad     int64
+dtype: object
 ````
 
 
