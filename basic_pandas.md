@@ -1,4 +1,20 @@
 # Pandas 🐼
+- [ ] [Series]()
+- [ ] [DataFrame]()
+
+# Series
+- [ ] [Como importar librerias]()
+- [ ] [Como crear Series]()
+- [ ] [Conocer las propiedades de una Serie]()
+- [ ] [Como indexar una Serie]()
+- [ ] [Acceder a los elementos de una Serie]()
+- [ ] [Como crear una Serie a partir de un diccionario]()
+
+# DataFrame
+- [ ] [Como importar librerias]()
+- [ ] [Como crear un DataFrame]()
+- [ ] [Como crear una DataFrame a partir de un diccionario]()
+- [ ] [Como castear columnas en un **df**]()
 
 ## Importar librerias
 ````
