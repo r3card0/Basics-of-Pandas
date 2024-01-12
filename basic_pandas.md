@@ -19,6 +19,7 @@
 - [ ] [Como crear un DataFrame]()
 - [ ] [Como crear un DataFrame a partir de un diccionario]()
 - [ ] [Como castear columnas en un DataFrame](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#como-castear-columnas-en-un-dataframe)
+- [ ] [Como castear de *int64* a *int8* o cualquier otro numerico](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#como-castear-de-int64-a-int8-o-cualquier-otro-numerico)
 - [ ] [Como funciona el método **apply( )**](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#c%C3%B3mo-funciona-el-metodo-apply--en-un-dataframe-de-pandas)
 - [ ] [Diferencia entre *int32* y *int64*](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#cual-es-la-diferencia-entre-int32-y-int64-en-python)
 - [ ] [Como funciona el metodo **assign( )**]()
