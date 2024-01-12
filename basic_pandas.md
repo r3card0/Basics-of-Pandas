@@ -193,6 +193,8 @@ ValueError: invalid literal for int() with base 10: 'Chile'
 ````
 Y quiere decir que la columna "Chile" no es candidato para castear a *int32*
 
+## Como castear de int64 a int8 o cualquier otro numerico
+
 # ¿Cómo funciona el metodo *apply( )* en un dataframe de pandas?
 El metodo *apply( )*, solo sirve para ejecutar funciones que afectaran al dataframe. Por medio del parametros *axis=*, se define si la funcion se aplicara a las filas o a las columnas. Aplicado a las filas o indices *(axis=0* y aplucado a las columnas *(axis=1)*
 
