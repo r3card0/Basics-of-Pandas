@@ -1,6 +1,10 @@
 # Pandas 🐼
+- [ ] [Pandas 🐼]()
 - [ ] [Series](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#series)
 - [ ] [DataFrame](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#dataframe)
+
+## Pandas 🐼
+- [ ] [Como funciona el metodo **to_numeric**](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#como-funciona-el-metodo-to_numeric)
 
 # Series
 - [ ] [Como importar librerias](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#importar-librerias)
@@ -17,7 +21,6 @@
 - [ ] [Como castear columnas en un DataFrame](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#como-castear-columnas-en-un-dataframe)
 - [ ] [Como funciona el método **apply( )**](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#c%C3%B3mo-funciona-el-metodo-apply--en-un-dataframe-de-pandas)
 - [ ] [Diferencia entre *int32* y *int64*](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#cual-es-la-diferencia-entre-int32-y-int64-en-python)
-- [ ] [Como funciona el metodo **to_numeric**](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#como-funciona-el-metodo-to_numeric)
 - [ ] [Como funciona el metodo **assign( )**]()
 
 ## Importar librerias
