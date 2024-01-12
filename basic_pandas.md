@@ -173,3 +173,16 @@ Y quiere decir que la columna "Chile" no es candidato para castear a *int32*
 El metodo *apply( )*, solo sirve para ejecutar funciones que afectaran al dataframe. Por medio del parametros *axis=*, se define si la funcion se aplicara a las filas o a las columnas. Aplicado a las filas o indices *(axis=0* y aplucado a las columnas *(axis=1)*
 
 [Ver pandas.DataFrame.apply](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.apply.html)
+
+# Cual es la diferencia entre *int32* y *int64* en Python
+
+La diferencia principal esta en terminos de capacidad de almacenamientos, porque un *integer* es manejado en bits (1s y 0s). Un dato numerico de 64-bit integer, puede almacenar un mucho mejor cantidades de numeros mas pequeños y mas grandes en virtud de tenes mas bits.
+
+Tipo de capacidad
+
+|Type| Capacity|
+|-|-|
+|Int16|(-32,768 to +32,767)|
+|Int32|(-2,147,483,648 to +2,147,483,647)|
+|Int64|(-9,223,372,036,854,775,808 to +9,223,372,036,854,775,807)|
+
