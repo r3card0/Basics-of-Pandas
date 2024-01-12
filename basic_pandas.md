@@ -158,6 +158,7 @@ Se observa que al crear un nuevo indice, el valor correspondiente es nulo *NaN*,
 
 
 # Como castear columnas en un Dataframe?
+Una forma de castear columnas de tipo string a numerico, se puede aplicar un proceso donde se aplican los metodos *to_numeric* y *df.assign( )* 👉[castear un string a numeric]()
 
 Cuando un dataframe, tiene una combinación de tipos de datos como son *string*, *númerico*, etc, no se puede usar el metodo
 ````
