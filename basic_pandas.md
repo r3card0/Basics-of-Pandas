@@ -213,6 +213,16 @@ dtype: object
 # convertir de string a numerico reasignando la variable limite_de_velocidad
 limite_de_velocidad = pd.to_numeric(df_velocidades['limite_de_velocidad'])
 ````
+ver el cambio de tipo de dato
+````
+limite_de_velocidad
+````
+Output
+````
+0     80
+1    100
+Name: limite_de_velocidad, dtype: int64
+````
 Para aplicar el cambio, se puede usar el metodo *assign( )*, el cual permite crear o reasignar columnas. En este caso, se reasignara el tipo de dato.
 ````
 # convertir de string a numerico reasignando la variable limite_de_velocidad aplicando el método assign( )
