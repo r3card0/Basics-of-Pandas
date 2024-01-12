@@ -157,5 +157,16 @@ dtype: object
 Se observa que al crear un nuevo indice, el valor correspondiente es nulo *NaN*, lo cual indica que se desconoce su valor
 
 
+# Como castear columnas en un Dataframe?
+
+Cuando un dataframe, tiene una combinación de tipos de datos como son *string*, *númerico*, etc, no se puede usar el metodo
+````
+df.astype('int32').dtypes
+````
+Por que marca el siguiente error:
+````
+ValueError: invalid literal for int() with base 10: 'Chile'
+````
+Y quiere decir que la columna "Chile" no es candidato para castear a *int32*
 
 
