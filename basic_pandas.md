@@ -275,4 +275,10 @@ Se puede crear una nueva columna a partir de una columma existente. Ver el [proc
 ## Castear una columna existente
 Se puede castear una columna existente. Ver el [proceso *to_numeric*](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#como-funciona-el-metodo-to_numeric) 
 
+# Como agrupar por una columna y realizar conteo en otra columna.
+
+Por ejemplo, agrupar el dataframe por id's y contar cuantos 'caracteristica' tiene cada id
+````sql
+df.groupby('id')['caracteristica').count()
+````
 
