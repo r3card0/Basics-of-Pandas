@@ -23,6 +23,7 @@
 - [ ] [Como funciona el método **apply( )**](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#c%C3%B3mo-funciona-el-metodo-apply--en-un-dataframe-de-pandas)
 - [ ] [Diferencia entre *int32* y *int64*](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#cual-es-la-diferencia-entre-int32-y-int64-en-python)
 - [ ] [Como funciona el metodo **assign( )**](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#como-funciona-el-m%C3%A9todo-assign-)
+- [ ] [Como agrupar por una cokumna y contar sus caracteristicas](#Como-agrupar-por-una-columna-y-realizar-conteo-en-otra-columna.)
 
 ## Importar librerias
 ````
