@@ -279,7 +279,14 @@ Se puede castear una columna existente. Ver el [proceso *to_numeric*](https://gi
 # Como agrupar por una columna y realizar conteo en otra columna.
 
 Por ejemplo, agrupar el dataframe por id's y contar cuantos 'caracteristica' tiene cada id
-````sql
+````python
 df.groupby('id')['caracteristica').count()
 ````
+
+# Como crear un nuevo dataframe a partir de una agrupacion de columnas y sumatoria de valores
+Cuando se agrupa una df por una columna determinada y se realiza un calculo cualquiera, normalmente el formato queda como tipo *object* y supongamos que ese formato quiero convertirlo en un nuevo dataframe. Para eso, se puede aplicar la función ***reset_index(drop=False)**** y el código será como se presenta:
+````python
+df.groupby('id')['mt'].sum().reset_index(drop=False)
+````
+El resultado será un nuevo dataframe. 
 
