@@ -296,3 +296,8 @@ Para cambiar el nombre de una columna, se usa el método *rename( )*, el cual re
 ````python
 df = df.rename(columns = {old_column:new_column})
 ````
+
+otro approach
+````python
+df.groupby(['astate','extraction_date'])['id'].count().reset_index(drop=False).rename(columns={"id":"ids"})
+````
