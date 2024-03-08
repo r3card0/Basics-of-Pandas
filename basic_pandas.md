@@ -24,7 +24,7 @@
 - [ ] [Diferencia entre *int32* y *int64*](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#cual-es-la-diferencia-entre-int32-y-int64-en-python)
 - [ ] [Como funciona el metodo **assign( )**](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#como-funciona-el-m%C3%A9todo-assign-)
 - [ ] [Como agrupar por una cokumna y contar sus caracteristicas](#Como-agrupar-por-una-columna-y-realizar-conteo-en-otra-columna)
-- [ ] [¿Cómo cambiar el nombre de una columna?](#¿Como-cambiar-el-nombre-de-una-columna)
+- [ ] [¿Cómo cambiar el nombre de una columna?](#Como-cambiar-el-nombre-de-una-columna)
 
 ## Importar librerias
 ````
