@@ -301,3 +301,21 @@ otro approach
 ````python
 df.groupby(['astate','extraction_date'])['id'].count().reset_index(drop=False).rename(columns={"id":"ids"})
 ````
+
+# Como calcular el numero de repeticiones de una columna y presentarlo como un nuevo dataframe
+Como sejemplo se puede usar el siguiente codigo, donde se conto el numero de veces que quedaron campeones los equipos de futbol partir de la columna *campeon*
+
+```python
+# funcion para calcular las veces que ganaron los campeones
+def champ_df(df:object):
+    # contar las veces ganadas de la columna "campeon"
+    count_by_champ = df.groupby("campeon")["campeon"].count()
+    # convertir a df
+    df = pd.DataFrame(count_by_champ)
+    # renombrar la columna campeon
+    df1 = df.rename(columns={"campeon":"ganados"})
+    # resetear el index
+    df1.reset_index(inplace=True)
+
+    return df1
+```
