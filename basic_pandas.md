@@ -302,6 +302,11 @@ otro approach
 df.groupby(['astate','extraction_date'])['id'].count().reset_index(drop=False).rename(columns={"id":"ids"})
 ````
 
+Este approach, levanta un error, por tal motivo se sugiere el siguiente:
+```python
+count_by_year = pd.DataFrame(met.groupby(["year","fall"])["fall"].count()).rename(columns = {"fall":"meteorites"}).reset_index(drop=False)
+```
+
 # Como calcular el numero de repeticiones de una columna y presentarlo como un nuevo dataframe
 Como sejemplo se puede usar el siguiente codigo, donde se conto el numero de veces que quedaron campeones los equipos de futbol partir de la columna *campeon*
 
