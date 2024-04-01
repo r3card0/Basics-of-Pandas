@@ -324,3 +324,18 @@ def champ_df(df:object):
 
     return df1
 ```
+
+# Como colocar los elementos de una lista en un arreglo de texto y que cada elemento quede separado por un "_"
+```python
+# Retorna el atributo "area_name", donde en formato de texto, lista los valores del atributo "NAME"
+def get_area_name(df:object,column_name:str):
+    empty_list:list = []
+    # crear la lista de valores en el atributo column_name
+    values_list:list = list(df[column_name])
+    # recorre la lista, agregando los elementos
+    for e in values_list:
+        empty_list.append(str(e) + "_")
+        
+    text = "".join(empty_list)
+    return text[:-1]
+```
