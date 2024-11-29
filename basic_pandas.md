@@ -25,6 +25,7 @@
 - [ ] [Como funciona el metodo **assign( )**](https://github.com/r3card0/Basics-of-Pandas/blob/main/basic_pandas.md#como-funciona-el-m%C3%A9todo-assign-)
 - [ ] [Como agrupar por una cokumna y contar sus caracteristicas](#Como-agrupar-por-una-columna-y-realizar-conteo-en-otra-columna)
 - [ ] [¿Cómo cambiar el nombre de una columna?](#Como-cambiar-el-nombre-de-una-columna)
+- [ ] [Expresiones regulares](#Expresiones-regulares)
 
 ## Importar librerias
 ````
@@ -339,3 +340,24 @@ def get_area_name(df:object,column_name:str):
     text = "".join(empty_list)
     return text[:-1]
 ```
+
+# Expresiones Regulares
+
+Tabla que muestra los métodos
+
+Aquí tienes una tabla con los métodos de expresiones regulares en pandas:
+
+| Método | Descripción | Ejemplo |
+|--------|-------------|---------|
+| `.str.contains()` | Busca coincidencias de un patrón en cada elemento de una serie | `df['columna'].str.contains('patrón')` |
+| `.str.match()` | Verifica si el patrón coincide desde el inicio de la cadena | `df['columna'].str.match(r'^\d+')` |
+| `.str.findall()` | Encuentra todas las coincidencias del patrón en cada elemento | `df['columna'].str.findall(r'\d+')` |
+| `.str.replace()` | Reemplaza coincidencias de un patrón con otro texto | `df['columna'].str.replace(r'\d+', 'X')` |
+| `.str.extract()` | Extrae el primer grupo de coincidencia de un patrón | `df['columna'].str.extract(r'(\d+)')` |
+| `.str.extractall()` | Extrae todos los grupos de coincidencia de un patrón | `df['columna'].str.extractall(r'(\d+)')` |
+| `.str.split()` | Divide las cadenas usando un patrón como separador | `df['columna'].str.split(r'\s+')` |
+| `.str.count()` | Cuenta el número de coincidencias de un patrón | `df['columna'].str.count(r'\d')` |
+| `.str.startswith()` | Verifica si la cadena comienza con un patrón específico | `df['columna'].str.startswith('prefijo')` |
+| `.str.endswith()` | Verifica si la cadena termina con un patrón específico | `df['columna'].str.endswith('sufijo')` |
+
+Nota: Todos los ejemplos usan el prefijo `r` para indicar expresiones regulares raw (sin escape de caracteres especiales).
